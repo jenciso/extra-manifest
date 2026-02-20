@@ -3,12 +3,12 @@ entries:
   extra-manifest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-02-20T14:09:53.805446Z"
+    created: "2026-02-20T14:32:00.211351Z"
     description: A Helm chart for Kubernetes
-    digest: 1ad36dc0e40635964a5c095e615dbca3950038b9b0784e16a6f3e64f0b8908b2
+    digest: ab8f6c357d0e5a6e51b3ac029f1f3b11bbedeeafe6b3051ac910c0acb5c81b0f
     name: extra-manifest
     type: application
     urls:
     - extra-manifest-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-20T14:09:53.797379Z"
+generated: "2026-02-20T14:32:00.201404Z"
