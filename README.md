@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # extra-manifest
 
 A minimal [Helm](https://helm.sh/) chart that deploys arbitrary Kubernetes manifests. Use it to add extra resources (ConfigMaps, Secrets, or any valid Kubernetes YAML) to a release, or as a standalone way to manage a set of “extra” objects with Helm templating.
@@ -47,10 +46,10 @@ helm upgrade --install extra-manifest . \
 
 Each item can be:
 
-1. **A YAML object (dict)**  
+1. **A YAML object (dict)**
    Rendered with `tpl(toYaml .)`, so you can use templating inside values.
 
-2. **A string**  
+2. **A string**
    Treated as a template and rendered with `tpl`; useful for multi-line or heavily templated manifests.
 
 ## Examples
@@ -277,4 +276,3 @@ extraManifests:
 ## License
 
 See repository license.
->>>>>>> 3c858d8 (Add files)
