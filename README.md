@@ -1,3 +1,5 @@
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/extra-manifest)](https://artifacthub.io/packages/search?repo=extra-manifest)
+
 # extra-manifest
 
 A minimal [Helm](https://helm.sh/) chart that deploys arbitrary Kubernetes manifests. Use it to add extra resources (ConfigMaps, Secrets, or any valid Kubernetes YAML) to a release, or as a standalone way to manage a set of “extra” objects with Helm templating.
